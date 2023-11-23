@@ -98,3 +98,6 @@ If you find our dataset(s), code, and/or [our paper](xxx) interesting or helpful
       journal={arXiv preprint arXiv:xxx.yyy},
       year={2023}
     }
+
+## Acknowledgements
+This work was funded by [Vinnova](https://www.vinnova.se/en/) ([Swedish Space Data Lab 2.0](https://www.vinnova.se/en/p/swedish-space-data-lab-2.0/), grant number 2021-03643), the [Swedish National Space Agency](https://www.rymdstyrelsen.se/en/) and the [Swedish Forest Agency](https://www.skogsstyrelsen.se/).
