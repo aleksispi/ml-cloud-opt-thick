@@ -1,10 +1,10 @@
 # Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation
 ![thumb](https://github.com/aleksispi/init-des/assets/32370520/f7a0cf68-b85c-415a-8800-7596bd996a22)
 
-Official code and dataset repository for the paper [_Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation_](xxx).
+Official code and dataset repository for the paper [_Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation_](https://arxiv.org/abs/2311.14024).
 
 ## Datasets
-In this work, two novel datasets are introduced (see [our paper](xxx) for details):
+In this work, two novel datasets are introduced (see [our paper](https://arxiv.org/abs/2311.14024) for details):
 * A synthetic dataset for cloud optical thickness estimation, which can be downloaded [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing).
 * A dataset of real satellite images, each of which is labeled 'clear' or 'cloudy'. This dataset can be downloaded [here](https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sharing).
 
@@ -74,7 +74,7 @@ Pretrained model weights are already available [here](https://drive.google.com/d
 11-dimensional vector corresponding to 11 out of the 12 spectral bands in the synthetic dataset (all of the 13 standard bands, except for B1 and B10). They can be run in ensemble-mode, as has been explained previously.
 
 ### ResNet-18-based image classification alternative
-As described in [our paper](xxx), we also compare our COT estimation-based approach with an image classification-based approach on the SFA dataset. To train a ResNet-18-based such classifier, simply run
+As described in [our paper](https://arxiv.org/abs/2311.14024), we also compare our COT estimation-based approach with an image classification-based approach on the SFA dataset. To train a ResNet-18-based such classifier, simply run
 ```
 python binary_cls_skogs.py
 ```
@@ -90,12 +90,12 @@ Note that the model is trained on data corresponding to the months April, May an
 To instead train / refine / evaluate MLP-based models on KappaZeta, please refer instead to the file `kappa_cloud_opt_thick.py`, which in many ways works in the same way as `kappa_cloud_train.py`.
 
 ## Citation
-If you find our dataset(s), code, and/or [our paper](xxx) interesting or helpful, please consider citing:
+If you find our dataset(s), code, and/or [our paper](https://arxiv.org/abs/2311.14024) interesting or helpful, please consider citing:
 
     @article{pirinen2023creating,
       title={Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation},
       author={Pirinen, Aleksis and XYZ},
-      journal={arXiv preprint arXiv:xxx.yyy},
+      journal={arXiv preprint arXiv:2311.14024},
       year={2023}
     }
 
