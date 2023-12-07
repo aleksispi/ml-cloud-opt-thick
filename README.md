@@ -94,7 +94,7 @@ If you find our dataset(s), code, and/or [our paper](https://arxiv.org/abs/2311.
 
     @article{pirinen2023creating,
       title={Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation},
-      author={Pirinen, Aleksis and XYZ},
+      author={Pirinen, Aleksis and Abid, Nosheen and Paszkowsky, Nuria Agues and Timoudas, Thomas Ohlson and Scheirer, Ronald and Ceccobello, Chiara and Kov{\'a}cs, Gy{\"o}rgy and Persson, Anders},
       journal={arXiv preprint arXiv:2311.14024},
       year={2023}
     }
