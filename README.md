@@ -1,7 +1,7 @@
 # Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation
 ![thumb](https://github.com/aleksispi/init-des/assets/32370520/f7a0cf68-b85c-415a-8800-7596bd996a22)
 
-Official code and dataset repository for the paper [_Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation_](https://arxiv.org/abs/2311.14024).
+Official code and dataset repository for the EUMETSAT 2023 paper [_Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation_](https://arxiv.org/abs/2311.14024).
 
 ## Datasets
 In this work, two novel datasets are introduced (see [our paper](https://arxiv.org/abs/2311.14024) for details):
