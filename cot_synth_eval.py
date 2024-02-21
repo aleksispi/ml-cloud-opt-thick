@@ -12,7 +12,7 @@ from utils import StatCollector, MLP5
 
 
 # Global vars
-BASE_PATH_DATA = '../data/SDL2_SMHI_data'
+BASE_PATH_DATA = '../data/synthetic-cot-data'
 BASE_PATH_LOG = '../log'
 USE_GPU = False  # The code uses small-scale models, GPU doesn't seem to accelerate things actually
 SEED = 0
