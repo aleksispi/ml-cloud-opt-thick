@@ -29,7 +29,7 @@ This will create the `cot_env` environment which you will then activate with
 ## Training and evaluating ML models for synthetic cloud optical thickness (COT) data provided by SMHI
 The main files of importance are `cot_synth_train.py` and `cot_synth_eval.py`, where the workflow is oriented around first training (and at the end of training, saving) models using `cot_synth_train.py`, followed by evaluting said models using `cot_synth_eval.py`.
 
-Begin by creating a folder `../data`, and in this folder you should put the data folder `SDL2_SMHI_data` that you can download [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing) (you must also unzip the file). Then also create a folder `../log` (this folder should be side-by-side with the folder `../data`; not one inside the other).
+Begin by creating a folder `../data`, and in this folder you should put the data folder `synthetic-cot-data` that you can download [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing) (you must also unzip the file). Then also create a folder `../log` (this folder should be side-by-side with the folder `../data`; not one inside the other).
 
 After the above, to train a model simply run
 ```
