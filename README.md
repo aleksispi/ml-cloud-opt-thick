@@ -94,11 +94,15 @@ To instead train / refine / evaluate MLP-based models on KappaZeta, please refer
 ## Citation
 If you find our dataset(s), code, and/or [our paper](https://www.mdpi.com/2072-4292/16/4/694) interesting or helpful, please consider citing:
 
-    @article{pirinen2023creating,
-      title={Creating and Benchmarking a Synthetic Dataset for Cloud Optical Thickness Estimation},
+    @article{pirinen2024creating,
+      title={Creating and Leveraging a Synthetic Dataset of Cloud Optical Thickness Measures for Cloud Detection in MSI},
       author={Pirinen, Aleksis and Abid, Nosheen and Paszkowsky, Nuria Agues and Timoudas, Thomas Ohlson and Scheirer, Ronald and Ceccobello, Chiara and Kov{\'a}cs, Gy{\"o}rgy and Persson, Anders},
-      journal={arXiv preprint arXiv:2311.14024},
-      year={2023}
+      journal={Remote Sensing},
+      volume={16},
+      number={4},
+      pages={694},
+      year={2024},
+      publisher={MDPI}
     }
 
 ## Acknowledgements
