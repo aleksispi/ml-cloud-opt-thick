@@ -126,13 +126,13 @@ for model_load_path in MODEL_LOAD_PATH:  # Ensemble approach if len(MODEL_LOAD_P
 	model.to(device)
 	model.eval()
 	models.append(model)
-criterion = nn.L1Loss().to(device)  # NB: L1Loss used in eval to get RMSE instead (no backprop, just eval)
+criterion = nn.L1Loss().to(device)  # NB: L1Loss used in eval to get mean absolute error, MAE (no backprop, just eval)
 
 # Setup statistics collector
 sc = StatCollector(stat_train_dir, 9999999, 10)
 sc_loss_string_base = 'MSE_loss'
 sc.register(sc_loss_string_base + '_' + SPLIT_TO_USE, {'type': 'avg', 'freq': 'step'})
-sc.register('RMSE_' + SPLIT_TO_USE, {'type': 'avg', 'freq': 'step'})
+sc.register('MAE_' + SPLIT_TO_USE, {'type': 'avg', 'freq': 'step'})
 
 if SPLIT_TO_USE == 'train':
 	inputs = inputs_train
@@ -187,8 +187,8 @@ for noise_idx, noise in enumerate(INPUT_NOISE):
 		loss_to_sc = loss.cpu().detach().numpy()
 		sc.s(sc_loss_string_base + '_' + SPLIT_TO_USE).collect(loss_to_sc)
 		if OUTPUT_DO_DENORMALIZE:
-			loss_to_sc *= gt_max  # RMSE "denormalized"
-		sc.s('RMSE_' + SPLIT_TO_USE).collect(loss_to_sc)
+			loss_to_sc *= gt_max  # MAE "denormalized"
+		sc.s('MAE_' + SPLIT_TO_USE).collect(loss_to_sc)
 
 		# Track statistics
 		if it % 100 == 0:
