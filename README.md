@@ -107,3 +107,6 @@ If you find our dataset(s), code, and/or [our paper](https://www.mdpi.com/2072-4
 
 ## Acknowledgements
 This work was funded by [Vinnova](https://www.vinnova.se/en/) ([Swedish Space Data Lab 2.0](https://www.vinnova.se/en/p/swedish-space-data-lab-2.0/), grant number 2021-03643), the [Swedish National Space Agency](https://www.rymdstyrelsen.se/en/) and the [Swedish Forest Agency](https://www.skogsstyrelsen.se/).
+
+## Errata
+There is a typo in the [journal version](https://www.mdpi.com/2072-4292/16/4/694) of the paper, where "RMSE" (root mean squared error) should instead be read as "MAE" (mean absolute error) in Section 4.1. This has been fixed in the [arXiv version](https://arxiv.org/abs/2311.14024).
