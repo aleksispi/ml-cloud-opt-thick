@@ -1,9 +1,9 @@
 # Creating and Leveraging a Synthetic Dataset of Cloud Optical Thickness Measures for Cloud Detection in MSI
 ![thumb](https://github.com/aleksispi/init-des/assets/32370520/f7a0cf68-b85c-415a-8800-7596bd996a22)
 
-Official code and dataset repository for the Remote Sensing 2024 journal paper [_Creating and Leveraging a Synthetic Dataset of Cloud Optical Thickness Measures for Cloud Detection in MSI_](https://www.mdpi.com/2072-4292/16/4/694). Also accepted for oral presentation at the 2nd ML-for-RS Workshop at ICLR 2024, and presented as a poster at EUMETSAT 2023.
+Official code and dataset repository for the Remote Sensing 2024 journal paper [_Creating and Leveraging a Synthetic Dataset of Cloud Optical Thickness Measures for Cloud Detection in MSI_](https://www.mdpi.com/2072-4292/16/4/694). Also presented (oral) at the [2nd ML-for-RS Workshop at ICLR 2024](https://ml-for-rs.github.io/iclr2024/), and presented as a poster at EUMETSAT 2023.
 
-[Journal paper](https://www.mdpi.com/2072-4292/16/4/694) | [arXiv](https://arxiv.org/abs/2311.14024)
+[Journal paper](https://www.mdpi.com/2072-4292/16/4/694) | [arXiv](https://arxiv.org/abs/2311.14024) | [ML4RS workshop paper](https://ml-for-rs.github.io/iclr2024/camera_ready/papers/26.pdf)
 
 ## Datasets
 In this work, two novel datasets are introduced (see [our paper](https://www.mdpi.com/2072-4292/16/4/694) for details):
