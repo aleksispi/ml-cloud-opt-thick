@@ -5,6 +5,9 @@ Official code and dataset repository for the Remote Sensing 2024 journal paper [
 
 [Journal paper](https://www.mdpi.com/2072-4292/16/4/694) | [arXiv](https://arxiv.org/abs/2311.14024) | [ML4RS workshop paper](https://ml-for-rs.github.io/iclr2024/camera_ready/papers/26.pdf)
 
+## NEWS
+In June 2024, the cloud optical thickness models developed in this work were sent into orbit in space, in collaboration with [Unibap](https://unibap.com/) and [D-orbit](https://www.dorbit.space/).
+
 ## Datasets
 In this work, two novel datasets are introduced (see [our paper](https://www.mdpi.com/2072-4292/16/4/694) for details):
 * A synthetic dataset for cloud optical thickness estimation, which can be downloaded [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing).
