@@ -10,7 +10,7 @@ In June 2024, the cloud optical thickness models developed in this work were [se
 
 ## Datasets
 In this work, two novel datasets are introduced (see [our paper](https://www.mdpi.com/2072-4292/16/4/694) for details):
-* A synthetic dataset for cloud optical thickness estimation, which can be downloaded [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing).
+* A synthetic dataset for cloud optical thickness estimation, which can be downloaded [here](https://drive.google.com/file/d/1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl/view?usp=sharing).
 * A dataset of real satellite images, each of which is labeled 'clear' or 'cloudy'. This dataset can be downloaded [here](https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sharing).
 
 ## If you want to set up your own Conda environment for this code base
@@ -32,7 +32,7 @@ This will create the `cot_env` environment which you will then activate with
 ## Training and evaluating ML models for synthetic cloud optical thickness (COT) data provided by SMHI
 The main files of importance are `cot_synth_train.py` and `cot_synth_eval.py`, where the workflow is oriented around first training (and at the end of training, saving) models using `cot_synth_train.py`, followed by evaluting said models using `cot_synth_eval.py`.
 
-Begin by creating a folder `../data`, and in this folder you should put the data folder `synthetic-cot-data` that you can download [here](https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=sharing) (you must also unzip the file). Then also create a folder `../log` (this folder should be side-by-side with the folder `../data`; not one inside the other).
+Begin by creating a folder `../data`, and in this folder you should put the data folder `synthetic-cot-data` that you can download [here](https://drive.google.com/file/d/1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl/view?usp=sharing) (you must also unzip the file). Then also create a folder `../log` (this folder should be side-by-side with the folder `../data`; not one inside the other).
 
 After the above, to train a model simply run
 ```
